@@ -245,10 +245,10 @@ footer a{
     }
 
     footer ul{
-        margin: auto;
+        margin-left: -2.5rem;
         justify-content: center;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         text-align: center;
       }
   }
