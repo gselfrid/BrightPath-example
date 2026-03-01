@@ -197,6 +197,10 @@ footer a{
     header h1{
       margin: 0;
     }
+
+    nav ul{
+        grid-template-columns: 1fr;
+      }
     
     nav a{
       margin: 1rem;
@@ -213,4 +217,12 @@ footer a{
     #hero img{
       margin: 3rem 10rem;
     }
+
+    footer ul{
+        margin: auto;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+      }
   }
